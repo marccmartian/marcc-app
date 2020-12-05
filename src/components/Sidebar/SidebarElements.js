@@ -9,6 +9,7 @@ export const SidebarContainer = styled.aside`
   top: ${({ isOpen }) => (isOpen ? "80px" : "-100%")};
   left: 0;
   transition: all 0.5s ease;
+  z-index: 50;
 `;
 
 export const SidebarMenu = styled.ul`
