@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
-import InfoSection from "../components/InfoSection";
 import PortfolioSection from "../components/PortfolioSection";
+import InfoSection from "../components/InfoSection";
+import MusicianSection from "../components/MusicianSection";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const Home = () => {
       <Header />
       <InfoSection />
       <PortfolioSection />
+      <MusicianSection />
     </>
   );
 };
