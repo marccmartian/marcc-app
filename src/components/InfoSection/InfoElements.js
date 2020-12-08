@@ -7,13 +7,17 @@ export const InfoContainer = styled.section`
 export const InfoWrapper = styled.div`
   max-width: 1100px;
   margin: 0 auto;
-  padding: 100px 40px 0 24px;
+  padding: 100px 40px 50px 40px;
   display: flex;
 
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 100px 20px 50px 20px;
   }
 `;
 
@@ -93,7 +97,7 @@ export const InfoTitle = styled.h2`
 
 export const InfoText = styled.p`
   font-size: 1.5rem;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 2.5rem;
   margin-bottom: 3rem;
 `;
