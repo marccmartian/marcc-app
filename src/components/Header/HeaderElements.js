@@ -8,6 +8,7 @@ export const HeaderContainer = styled.header`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
   position: relative;
 
   :before {
