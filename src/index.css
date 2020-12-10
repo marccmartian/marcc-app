@@ -14,10 +14,49 @@
   --yellow: #c69226;
   --purple: #900e68;
   --red: #b62112;
-  --fb: #3b5998;
-  --tw: #00aced;
   --white: #fff;
   --black: #111;
+  --bgFooter: #101522;
+  --in: #006192;
+  --fb: #1877f2;
+  --tw: #1da1f2;
+  --yt: #ff0000;
+  --ig: rgba(252, 70, 107, 1);
+}
+
+.linkedin:hover {
+  color: var(--in);
+  transform: scale(1.3);
+  transition: 0.2s all ease-in-out;
+}
+
+.github:hover {
+  transform: scale(1.3);
+  transition: 0.2s all ease-in-out;
+}
+
+.facebook:hover {
+  color: var(--fb);
+  transform: scale(1.3);
+  transition: 0.2s all ease-in-out;
+}
+
+.instagram:hover {
+  color: var(--ig);
+  transform: scale(1.3);
+  transition: 0.2s all ease-in-out;
+}
+
+.youtube:hover {
+  color: var(--yt);
+  transform: scale(1.3);
+  transition: 0.2s all ease-in-out;
+}
+
+.twitter:hover {
+  color: var(--tw);
+  transform: scale(1.3);
+  transition: 0.2s all ease-in-out;
 }
 
 @keyframes slide {
