@@ -12,14 +12,13 @@ const MusicianSection = () => {
     <MusicianContainer>
       <MusicianWrapper>
         <MusicianContent>
-          <MusicianTitle>Bassist</MusicianTitle>
+          <MusicianTitle>The Musician</MusicianTitle>
           <MusicianP>
-            Non etiam tempor id arcu magna ante eget. Nec per posuere cubilia
-            cras porttitor condimentum orci suscipit. Leo maecenas in tristique,
-            himenaeos elementum placerat. Taciti rutrum nostra, eget cursus
-            velit ultricies. Quam molestie tellus himenaeos cubilia congue
-            vivamus ultricies. Interdum praesent ut penatibus fames eros ad
-            consectetur sed.
+            También soy un amante de la música; y más que un pasa tiempo,
+            también es una de mis pasiones. Aprendí empíricamente música hace ya
+            hace varios años atrás, y ahora me encanta tocar este gran
+            instrumento que es el bajo eléctrico. Soy musico aficionado, pero
+            trato de dar lo mejor no solo en ello, sino en todo lo que hago.
           </MusicianP>
         </MusicianContent>
       </MusicianWrapper>
