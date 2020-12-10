@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import PortfolioSection from "../components/PortfolioSection";
 import InfoSection from "../components/InfoSection";
 import MusicianSection from "../components/MusicianSection";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ const Home = () => {
       <InfoSection />
       <PortfolioSection />
       <MusicianSection />
+      <Footer />
     </>
   );
 };
