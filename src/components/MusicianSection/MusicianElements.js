@@ -48,6 +48,10 @@ export const MusicianTitle = styled.h2`
   text-transform: uppercase;
   font-size: 2rem;
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 425px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const MusicianP = styled.p`
@@ -55,4 +59,8 @@ export const MusicianP = styled.p`
   font-weight: 300;
   line-height: 2.5rem;
   margin-bottom: 3rem;
+
+  @media screen and (max-width: 425px) {
+    font-size: 1.2rem;
+  }
 `;

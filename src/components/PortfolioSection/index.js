@@ -10,7 +10,7 @@ import { objProjects } from "../../data/objProjects";
 
 const Portfolio = () => {
   return (
-    <PortfolioContainer>
+    <PortfolioContainer id="portfolio">
       <PortfolioWrap>
         <PortTitle>Portafolio</PortTitle>
         <PortfolioList>

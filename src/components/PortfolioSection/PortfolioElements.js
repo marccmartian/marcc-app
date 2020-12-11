@@ -11,6 +11,10 @@ export const PortTitle = styled.h2`
   margin-top: 100px;
   margin-bottom: 3rem;
   text-align: center;
+
+  @media screen and (max-width: 425px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const PortfolioWrap = styled.div`

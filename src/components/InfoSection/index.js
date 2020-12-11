@@ -15,7 +15,7 @@ import marcc from "../../images/marcc.jpg";
 
 const InfoSection = () => {
   return (
-    <InfoContainer>
+    <InfoContainer id="about">
       <InfoWrapper>
         <Column>
           <PerfilWrap>

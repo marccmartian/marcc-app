@@ -93,6 +93,10 @@ export const InfoTitle = styled.h2`
   font-size: 2rem;
   color: var(--green);
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 425px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const InfoText = styled.p`
@@ -100,4 +104,8 @@ export const InfoText = styled.p`
   font-weight: 300;
   line-height: 2.5rem;
   margin-bottom: 3rem;
+
+  @media screen and (max-width: 425px) {
+    font-size: 1.2rem;
+  }
 `;

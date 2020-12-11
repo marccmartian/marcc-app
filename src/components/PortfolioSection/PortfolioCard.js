@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-const Card = styled.div`
+const Card = styled.a`
   background-color: var(--white);
+  text-decoration: none;
+  color: var(--black);
   border-radius: 10px;
   padding: 2rem;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -34,9 +36,9 @@ const ProjectP = styled.p`
   line-height: 1.3rem;
 `;
 
-const PortfolioCard = ({ id, image, title, description }) => {
+const PortfolioCard = ({ id, image, title, description, url }) => {
   return (
-    <Card>
+    <Card href={url} target="_blank">
       <ProjectImage src={image} alt={title} />
       <ProjectTitle>{title}</ProjectTitle>
       <ProjectP>{description}</ProjectP>

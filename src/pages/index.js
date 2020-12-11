@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       <Navbar isOpen={isOpen} setIsOpen={handleOnToogleOpen} />
-      <Sidebar isOpen={isOpen} />
+      <Sidebar isOpen={isOpen} setIsOpen={handleOnToogleOpen} />
       <Header />
       <InfoSection />
       <PortfolioSection />
