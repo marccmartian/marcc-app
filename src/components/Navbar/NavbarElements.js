@@ -4,13 +4,14 @@ import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
   height: 80px;
-  background-color: var(--black);
+  background-color: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
   display: flex;
   justify-content: center;
   position: sticky;
   top: 0;
   z-index: 100;
   font-size: 1rem;
+  transition: 0.8s all ease;
 `;
 
 export const NavbarContainer = styled.div`
@@ -54,6 +55,10 @@ export const NavLink = styled(LinkS)`
   &:hover {
     background-color: var(--green);
     transition: background-color 0.3s linear;
+  }
+
+  &.active {
+    border-bottom: 3px solid var(--green);
   }
 `;
 

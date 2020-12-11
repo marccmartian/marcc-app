@@ -9,7 +9,7 @@ import TextSlider from "./TextSlider";
 
 const Header = () => {
   return (
-    <HeaderContainer>
+    <HeaderContainer id="header">
       <HeaderWrapper>
         <HeaderContent>
           <HeaderH1>Marvin Carrasco</HeaderH1>

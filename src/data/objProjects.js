@@ -5,6 +5,7 @@ export const objProjects = [
     title: "Todoisn't",
     description:
       "React, components, hook state, event handling, conditional rendering, forms, props, y mas...",
+    url: "https://todoisnt-marcc.netlify.app/",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const objProjects = [
     title: "Test 2",
     description:
       "React, components, hook state, event handling, conditional rendering, forms, props, y mas...",
+    url: "https://www.google.com",
   },
   {
     id: 3,
@@ -19,5 +21,6 @@ export const objProjects = [
     title: "Test 3",
     description:
       "React, components, hook state, event handling, conditional rendering, forms, props, y mas...",
+    url: "https://www.google.com",
   },
 ];

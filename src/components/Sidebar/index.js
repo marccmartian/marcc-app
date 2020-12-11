@@ -6,21 +6,29 @@ import {
   SidebarLink,
 } from "./SidebarElements";
 
-const Sidebar = ({ isOpen }) => {
+const Sidebar = ({ isOpen, setIsOpen }) => {
   return (
     <SidebarContainer isOpen={isOpen}>
       <SidebarMenu>
         <SidebarItem>
-          <SidebarLink to="/">Inicio</SidebarLink>
+          <SidebarLink to="header" onClick={setIsOpen}>
+            Inicio
+          </SidebarLink>
         </SidebarItem>
         <SidebarItem>
-          <SidebarLink to="about">Sobre Mí</SidebarLink>
+          <SidebarLink to="about" onClick={setIsOpen}>
+            Sobre Mí
+          </SidebarLink>
         </SidebarItem>
         <SidebarItem>
-          <SidebarLink to="portfolio">Portafolio</SidebarLink>
+          <SidebarLink to="portfolio" onClick={setIsOpen}>
+            Portafolio
+          </SidebarLink>
         </SidebarItem>
         <SidebarItem>
-          <SidebarLink to="contact">Contacto</SidebarLink>
+          <SidebarLink to="contact" onClick={setIsOpen}>
+            Contacto
+          </SidebarLink>
         </SidebarItem>
       </SidebarMenu>
     </SidebarContainer>
